@@ -167,6 +167,7 @@
 				F3D96B8D2229738200C45A17 /* Sources */,
 				F3D96B8E2229738200C45A17 /* Frameworks */,
 				F3D96B8F2229738200C45A17 /* Resources */,
+				F3F7AE3622298E8A00D7D056 /* Jazzy */,
 			);
 			buildRules = (
 			);
@@ -293,6 +294,24 @@
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
+		};
+		F3F7AE3622298E8A00D7D056 /* Jazzy */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = Jazzy;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#if which jazzy >/dev/null; then\n# Working command to tap in your terminal:\n#jazzy -x -workspace,RxSejima.xcworkspace,-scheme,RxSejima -a MoveUpwards -u https://moveupwards.dev -g https://github.com/MoveUpwards/RxSejima\n#else\n#echo \"warning: jazzy not installed, download from https://github.com/realm/jazzy\"\n#fi\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
