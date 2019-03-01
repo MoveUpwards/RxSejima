@@ -11,9 +11,9 @@ import RxCocoa
 import Sejima
 
 extension Reactive where Base: MUHeader {
-    public var header: Binder<String> {
+    public var title: Binder<String> {
         return Binder(self.base) { view, text in
-            view.header = text
+            view.title = text
         }
     }
 

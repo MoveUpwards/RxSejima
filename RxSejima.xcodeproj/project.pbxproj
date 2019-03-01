@@ -12,18 +12,10 @@
 		F3D96B9B2229738300C45A17 /* RxSejima.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3D96B912229738200C45A17 /* RxSejima.framework */; };
 		F3D96BA02229738300C45A17 /* RxSejimaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D96B9F2229738300C45A17 /* RxSejimaTests.swift */; };
 		F3D96BA22229738300C45A17 /* RxSejima.h in Headers */ = {isa = PBXBuildFile; fileRef = F3D96B942229738200C45A17 /* RxSejima.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F3D96BBB222974E800C45A17 /* MUTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D96BAC222974E800C45A17 /* MUTime.swift */; };
-		F3D96BBC222974E800C45A17 /* MUIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D96BAD222974E800C45A17 /* MUIndicator.swift */; };
-		F3D96BBD222974E800C45A17 /* MUNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D96BAE222974E800C45A17 /* MUNavigationBar.swift */; };
-		F3D96BBE222974E800C45A17 /* MUAvatar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D96BAF222974E800C45A17 /* MUAvatar.swift */; };
 		F3D96BC1222974E800C45A17 /* MUHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D96BB3222974E800C45A17 /* MUHeader.swift */; };
 		F3D96BC2222974E800C45A17 /* MUTopBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D96BB4222974E800C45A17 /* MUTopBar.swift */; };
-		F3D96BC3222974E800C45A17 /* MUStat.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D96BB5222974E800C45A17 /* MUStat.swift */; };
 		F3D96BC4222974E800C45A17 /* MUTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D96BB6222974E800C45A17 /* MUTextField.swift */; };
-		F3D96BC5222974E800C45A17 /* MUTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D96BB7222974E800C45A17 /* MUTag.swift */; };
 		F3D96BC6222974E800C45A17 /* MUButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D96BB8222974E800C45A17 /* MUButton.swift */; };
-		F3D96BC7222974E800C45A17 /* MUProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D96BB9222974E800C45A17 /* MUProgress.swift */; };
-		F3D96BC8222974E800C45A17 /* MUSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D96BBA222974E800C45A17 /* MUSegmentedControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,18 +41,10 @@
 		F3D96B9A2229738300C45A17 /* RxSejimaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxSejimaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3D96B9F2229738300C45A17 /* RxSejimaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSejimaTests.swift; sourceTree = "<group>"; };
 		F3D96BA12229738300C45A17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F3D96BAC222974E800C45A17 /* MUTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MUTime.swift; sourceTree = "<group>"; };
-		F3D96BAD222974E800C45A17 /* MUIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MUIndicator.swift; sourceTree = "<group>"; };
-		F3D96BAE222974E800C45A17 /* MUNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MUNavigationBar.swift; sourceTree = "<group>"; };
-		F3D96BAF222974E800C45A17 /* MUAvatar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MUAvatar.swift; sourceTree = "<group>"; };
 		F3D96BB3222974E800C45A17 /* MUHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MUHeader.swift; sourceTree = "<group>"; };
 		F3D96BB4222974E800C45A17 /* MUTopBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MUTopBar.swift; sourceTree = "<group>"; };
-		F3D96BB5222974E800C45A17 /* MUStat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MUStat.swift; sourceTree = "<group>"; };
 		F3D96BB6222974E800C45A17 /* MUTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MUTextField.swift; sourceTree = "<group>"; };
-		F3D96BB7222974E800C45A17 /* MUTag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MUTag.swift; sourceTree = "<group>"; };
 		F3D96BB8222974E800C45A17 /* MUButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MUButton.swift; sourceTree = "<group>"; };
-		F3D96BB9222974E800C45A17 /* MUProgress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MUProgress.swift; sourceTree = "<group>"; };
-		F3D96BBA222974E800C45A17 /* MUSegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MUSegmentedControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,18 +130,10 @@
 		F3D96BAB222974E800C45A17 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				F3D96BAC222974E800C45A17 /* MUTime.swift */,
-				F3D96BAD222974E800C45A17 /* MUIndicator.swift */,
-				F3D96BAE222974E800C45A17 /* MUNavigationBar.swift */,
-				F3D96BAF222974E800C45A17 /* MUAvatar.swift */,
 				F3D96BB3222974E800C45A17 /* MUHeader.swift */,
 				F3D96BB4222974E800C45A17 /* MUTopBar.swift */,
-				F3D96BB5222974E800C45A17 /* MUStat.swift */,
 				F3D96BB6222974E800C45A17 /* MUTextField.swift */,
-				F3D96BB7222974E800C45A17 /* MUTag.swift */,
 				F3D96BB8222974E800C45A17 /* MUButton.swift */,
-				F3D96BB9222974E800C45A17 /* MUProgress.swift */,
-				F3D96BBA222974E800C45A17 /* MUSegmentedControl.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -319,17 +295,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3D96BC3222974E800C45A17 /* MUStat.swift in Sources */,
-				F3D96BBD222974E800C45A17 /* MUNavigationBar.swift in Sources */,
-				F3D96BBB222974E800C45A17 /* MUTime.swift in Sources */,
-				F3D96BBE222974E800C45A17 /* MUAvatar.swift in Sources */,
-				F3D96BC7222974E800C45A17 /* MUProgress.swift in Sources */,
-				F3D96BBC222974E800C45A17 /* MUIndicator.swift in Sources */,
-				F3D96BC5222974E800C45A17 /* MUTag.swift in Sources */,
 				F3D96BC1222974E800C45A17 /* MUHeader.swift in Sources */,
 				F3D96BC6222974E800C45A17 /* MUButton.swift in Sources */,
 				F3D96BC2222974E800C45A17 /* MUTopBar.swift in Sources */,
-				F3D96BC8222974E800C45A17 /* MUSegmentedControl.swift in Sources */,
 				F3D96BC4222974E800C45A17 /* MUTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

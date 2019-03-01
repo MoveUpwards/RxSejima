@@ -19,13 +19,7 @@ extension Reactive where Base: MUButton {
 
     public var loading: Binder<Bool> {
         return Binder(self.base) { view, value in
-            view.set(loading: value)
-        }
-    }
-
-    public var state: Binder<MUButton.State> {
-        return Binder(self.base) { view, value in
-            view.state = value
+            view.isLoading = value
         }
     }
 }
