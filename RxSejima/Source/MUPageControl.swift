@@ -1,5 +1,5 @@
 //
-//  MUHeader.swift
+//  MUPageControl.swift
 //  RxSejima
 //
 //  Created by Loïc GRIFFIE on 13/02/2019.
@@ -10,16 +10,16 @@ import RxSwift
 import RxCocoa
 import Sejima
 
-extension Reactive where Base: MUHeader {
-    public var title: Binder<String> {
+extension Reactive where Base: MUPageControl {
+    public var numberOfPages: Binder<Int> {
         return Binder(self.base) { view, value in
-            view.title = value
+            view.numberOfPages = value
         }
     }
 
-    public var detail: Binder<String> {
+    public var currentPage: Binder<Int> {
         return Binder(self.base) { view, value in
-            view.detail = value
+            view.set(page: value, animated: true)
         }
     }
 }

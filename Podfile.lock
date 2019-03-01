@@ -2,7 +2,7 @@ PODS:
   - RxCocoa (4.3.1):
     - RxSwift (~> 4.0)
   - RxSwift (4.3.1)
-  - Sejima (0.1.5)
+  - Sejima (0.1.6)
 
 DEPENDENCIES:
   - RxCocoa (~> 4.3.1)
@@ -18,7 +18,7 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   RxCocoa: 78763c7b07d02455598d9fc3c1ad091a28b73635
   RxSwift: fe0fd770a43acdb7d0a53da411c9b892e69bb6e4
-  Sejima: 735ba5c77acedfa2050d8c7f2871f7ce30f269cd
+  Sejima: 69354a4966c2e6a3982d15b72c97f98f94cf4b4e
 
 PODFILE CHECKSUM: 67c48f9c77168e20f93b79f42082c783295020a8
 

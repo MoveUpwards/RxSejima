@@ -18,9 +18,15 @@ extension Reactive where Base: MUTopBar {
         }
     }
 
-    public var image: Binder<UIImage?> {
+    public var buttonImage: Binder<UIImage?> {
         return Binder(self.base) { view, value in
             view.buttonImage = value
+        }
+    }
+
+    public var showButton: Binder<Bool> {
+        return Binder(self.base) { view, value in
+            view.showButton = value
         }
     }
 }

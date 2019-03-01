@@ -28,4 +28,16 @@ extension Reactive where Base: MUTextField {
             view.text = value
         }
     }
+
+    public var isSecure: Binder<Bool> {
+        return Binder(self.base) { view, value in
+            view.isSecure = value
+        }
+    }
+
+    public var isEditable: Binder<Bool> {
+        return Binder(self.base) { view, value in
+            view.isEditable = value
+        }
+    }
 }

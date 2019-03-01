@@ -1,5 +1,5 @@
 //
-//  MUButton.swift
+//  MUNavigationBar.swift
 //  RxSejima
 //
 //  Created by Loïc GRIFFIE on 13/02/2019.
@@ -10,22 +10,28 @@ import RxSwift
 import RxCocoa
 import Sejima
 
-extension Reactive where Base: MUButton {
-    public var title: Binder<String> {
+extension Reactive where Base: MUNavigationBar {
+    public var leftButtonImage: Binder<UIImage?> {
         return Binder(self.base) { view, value in
-            view.title = value
+            view.leftButtonImage = value
         }
     }
 
-    public var loading: Binder<Bool> {
+    public var title: Binder<String> {
         return Binder(self.base) { view, value in
-            view.isLoading = value
+            view.mainButtonTitle = value
+        }
+    }
+
+    public var isLoading: Binder<Bool> {
+        return Binder(self.base) { view, value in
+            view.mainButtonIsLoading = value
         }
     }
 
     public var state: Binder<UIControl.State> {
         return Binder(self.base) { view, value in
-            view.state = value
+            view.mainButtonState = value
         }
     }
 }
