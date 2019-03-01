@@ -1,2 +1,45 @@
+[![Documentation](https://img.shields.io/badge/Read_the-Docs-67ad5c.svg)](https://moveupwards.github.io/RxSejima/)
+[![Language: Swift 2, 3 and 4](https://img.shields.io/badge/language-swift%204-f48041.svg?style=flat)](https://developer.apple.com/swift)
+![Platform: iOS 11+](https://img.shields.io/badge/platform-iOS-blue.svg?style=flat)
+[![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+[![CocoaPods](https://img.shields.io/cocoapods/v/RxSejima.svg)](http://cocoapods.org/pods/RxSejima)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/c366453a6bc247bd847c4ad33f2cf37c)](https://app.codacy.com/app/MoveUpwardsDev/RxSejima?utm_source=github.com&utm_medium=referral&utm_content=MoveUpwards/Sejima&utm_campaign=Badge_Grade_Settings)
+![Build Status](https://app.bitrise.io/app/527234c879c3952a.svg?token=RCLpb4OfkyZcufMQ7bVCTQ)
+[![License: MIT](http://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat)](https://github.com/MoveUpwards/RxSejima/blob/master/LICENSE)
+[![GitHub contributors](https://img.shields.io/github/contributors/MoveUpwards/RxSejima.svg)](https://github.com/MoveUpwards/RxSejima/graphs/contributors)
+[![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://paypal.me/moveupwards)
+
 # RxSejima
+
 Add Bind capabilities to Sejima library
+
+## Requirements
+
+- iOS 9.0+
+- Xcode 9.0+
+
+## Installation
+
+### use [CocoaPods](https://cocoapods.org) with Podfile
+
+```swift
+pod 'RxSejima'
+```
+
+open your favorite terminal, go to your project root path:
+
+```shell
+pod install
+```
+
+### use [Carthage](https://github.com/Carthage/Carthage) with Cartfile
+
+```shell
+github "MoveUpwards/RxSejima"
+```
+
+open your favorite terminal, go to your project root path and run:
+
+```shell
+carthage update
+```
