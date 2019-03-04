@@ -43,3 +43,44 @@ open your favorite terminal, go to your project root path and run:
 ```shell
 carthage update
 ```
+
+## Usage
+
+```swift
+import Sejima
+import RxSejima
+
+class ViewController: UIViewController {
+    @IBOutlet private weak var button: MUButton!
+
+    private let bag = DisposeBag()
+    private let viewModel: ViewControllerViewModel()
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+
+        viewModel.loading.bind(to: button.rx.loading).disposed(by: bag)
+    }
+
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+
+        startLoading()
+    }
+}
+```
+
+```swift
+import RxSwift
+
+class ViewControllerViewModel {
+    internal let loading = BehaviorSubject<Bool>(value: false)
+
+    internal func startLoading() {
+        loading.onNext(true)
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2) { [weak self] in
+            self?.loading.onNext(false)
+        }
+    }
+}
+```
