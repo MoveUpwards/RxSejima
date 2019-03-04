@@ -46,12 +46,14 @@ carthage update
 
 ## Usage
 
+Create a basic view controller with a `MUButton`
+
 ```swift
 import Sejima
 import RxSejima
 
 class ViewController: UIViewController {
-    @IBOutlet private weak var button: MUButton!
+    @IBOutlet private var button: MUButton!
 
     private let bag = DisposeBag()
     private let viewModel: ViewControllerViewModel()
@@ -69,6 +71,8 @@ class ViewController: UIViewController {
     }
 }
 ```
+
+Add your view model with the logic.
 
 ```swift
 import RxSwift
