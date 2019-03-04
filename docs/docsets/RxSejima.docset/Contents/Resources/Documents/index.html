@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>RxSejima  Reference</title>
+    <link rel="stylesheet" type="text/css" href="css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="js/jquery.min.js" defer></script>
+    <script src="js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a title="RxSejima  Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="index.html">RxSejima Docs</a> (100% documented)</p>
+        <p class="header-right"><a href="https://github.com/MoveUpwards/RxSejima"><img src="img/gh.png"/>View on GitHub</a></p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="index.html">RxSejima Reference</a>
+        <img id="carat" src="img/carat.png" />
+        RxSejima  Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Extensions/Reactive.html">Reactive</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            
+            <p><a href="https://moveupwards.github.io/RxSejima/"><img src="https://img.shields.io/badge/Read_the-Docs-67ad5c.svg" alt="Documentation"></a>
+<a href="https://developer.apple.com/swift"><img src="https://img.shields.io/badge/language-swift%204-f48041.svg?style=flat" alt="Language: Swift 2, 3 and 4"></a>
+<img src="https://img.shields.io/badge/platform-iOS-blue.svg?style=flat" alt="Platform: iOS 11+">
+<a href="https://github.com/Carthage/Carthage"><img src="https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat" alt="Carthage Compatible"></a>
+<a href="http://cocoapods.org/pods/RxSejima"><img src="https://img.shields.io/cocoapods/v/RxSejima.svg" alt="CocoaPods"></a>
+<a href="https://app.codacy.com/app/MoveUpwardsDev/RxSejima?utm_source=github.com&utm_medium=referral&utm_content=MoveUpwards/Sejima&utm_campaign=Badge_Grade_Settings"><img src="https://api.codacy.com/project/badge/Grade/f81bf20a181e4f58a575af39ab5ae3dc" alt="Codacy Badge"></a>
+<img src="https://app.bitrise.io/app/599b3758fc2a50b0.svg?token=t-UomjXRgokIdZG8h3eU4g" alt="Build Status">
+<a href="https://github.com/MoveUpwards/RxSejima/blob/master/LICENSE"><img src="http://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat" alt="License: MIT"></a>
+<a href="https://github.com/MoveUpwards/RxSejima/graphs/contributors"><img src="https://img.shields.io/github/contributors/MoveUpwards/RxSejima.svg" alt="GitHub contributors"></a>
+<a href="https://paypal.me/moveupwards"><img src="https://img.shields.io/badge/Donate-PayPal-blue.svg" alt="Donate"></a></p>
+<h1 id='rxsejima' class='heading'>RxSejima</h1>
+
+<p>Add Bind capabilities to Sejima library</p>
+<h2 id='requirements' class='heading'>Requirements</h2>
+
+<ul>
+<li>iOS 9.0+</li>
+<li>Xcode 9.0+</li>
+</ul>
+<h2 id='installation' class='heading'>Installation</h2>
+<h3 id='use-a-href-https-cocoapods-org-cocoapods-a-with-podfile' class='heading'>use <a href="https://cocoapods.org">CocoaPods</a> with Podfile</h3>
+<pre class="highlight swift"><code><span class="n">pod</span> <span class="err">'</span><span class="kt">RxSejima</span><span class="err">'</span>
+</code></pre>
+
+<p>open your favorite terminal, go to your project root path:</p>
+<pre class="highlight shell"><code>pod install
+</code></pre>
+<h3 id='use-a-href-https-github-com-carthage-carthage-carthage-a-with-cartfile' class='heading'>use <a href="https://github.com/Carthage/Carthage">Carthage</a> with Cartfile</h3>
+<pre class="highlight shell"><code>github <span class="s2">"MoveUpwards/RxSejima"</span>
+</code></pre>
+
+<p>open your favorite terminal, go to your project root path and run:</p>
+<pre class="highlight shell"><code>carthage update
+</code></pre>
+<h2 id='usage' class='heading'>Usage</h2>
+
+<p>Create a basic view controller with a <code>MUButton</code></p>
+<pre class="highlight swift"><code><span class="kd">import</span> <span class="kt">Sejima</span>
+<span class="kd">import</span> <span class="kt">RxSejima</span>
+
+<span class="kd">class</span> <span class="kt">ViewController</span><span class="p">:</span> <span class="kt">UIViewController</span> <span class="p">{</span>
+    <span class="kd">@IBOutlet</span> <span class="kd">private</span> <span class="k">var</span> <span class="nv">button</span><span class="p">:</span> <span class="kt">MUButton</span><span class="o">!</span>
+
+    <span class="kd">private</span> <span class="k">let</span> <span class="nv">bag</span> <span class="o">=</span> <span class="kt">DisposeBag</span><span class="p">()</span>
+    <span class="kd">private</span> <span class="k">let</span> <span class="nv">viewModel</span><span class="p">:</span> <span class="kt">ViewControllerViewModel</span><span class="p">()</span>
+
+    <span class="k">override</span> <span class="kd">func</span> <span class="nf">viewDidLoad</span><span class="p">()</span> <span class="p">{</span>
+        <span class="k">super</span><span class="o">.</span><span class="nf">viewDidLoad</span><span class="p">()</span>
+
+        <span class="n">viewModel</span><span class="o">.</span><span class="n">loading</span><span class="o">.</span><span class="nf">bind</span><span class="p">(</span><span class="nv">to</span><span class="p">:</span> <span class="n">button</span><span class="o">.</span><span class="n">rx</span><span class="o">.</span><span class="n">loading</span><span class="p">)</span><span class="o">.</span><span class="nf">disposed</span><span class="p">(</span><span class="nv">by</span><span class="p">:</span> <span class="n">bag</span><span class="p">)</span>
+    <span class="p">}</span>
+
+    <span class="k">override</span> <span class="kd">func</span> <span class="nf">viewDidAppear</span><span class="p">(</span><span class="n">_</span> <span class="nv">animated</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">super</span><span class="o">.</span><span class="nf">viewDidAppear</span><span class="p">(</span><span class="n">animated</span><span class="p">)</span>
+
+        <span class="nf">startLoading</span><span class="p">()</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre>
+
+<p>Add your view model with the logic.</p>
+<pre class="highlight swift"><code><span class="kd">import</span> <span class="kt">RxSwift</span>
+
+<span class="kd">class</span> <span class="kt">ViewControllerViewModel</span> <span class="p">{</span>
+    <span class="kd">internal</span> <span class="k">let</span> <span class="nv">loading</span> <span class="o">=</span> <span class="kt">BehaviorSubject</span><span class="o">&lt;</span><span class="kt">Bool</span><span class="o">&gt;</span><span class="p">(</span><span class="nv">value</span><span class="p">:</span> <span class="kc">false</span><span class="p">)</span>
+
+    <span class="kd">internal</span> <span class="kd">func</span> <span class="nf">startLoading</span><span class="p">()</span> <span class="p">{</span>
+        <span class="n">loading</span><span class="o">.</span><span class="nf">onNext</span><span class="p">(</span><span class="kc">true</span><span class="p">)</span>
+        <span class="kt">DispatchQueue</span><span class="o">.</span><span class="n">main</span><span class="o">.</span><span class="nf">asyncAfter</span><span class="p">(</span><span class="nv">deadline</span><span class="p">:</span> <span class="o">.</span><span class="nf">now</span><span class="p">()</span> <span class="o">+</span> <span class="mi">2</span><span class="p">)</span> <span class="p">{</span> <span class="p">[</span><span class="k">weak</span> <span class="k">self</span><span class="p">]</span> <span class="k">in</span>
+            <span class="k">self</span><span class="p">?</span><span class="o">.</span><span class="n">loading</span><span class="o">.</span><span class="nf">onNext</span><span class="p">(</span><span class="kc">false</span><span class="p">)</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre>
+
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2019 <a class="link" href="https://moveupwards.dev" target="_blank" rel="external">MoveUpwards</a>. All rights reserved. (Last updated: 2019-03-04)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>
