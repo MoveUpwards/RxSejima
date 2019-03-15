@@ -22,4 +22,10 @@ extension Reactive where Base: MUButton {
             view.isLoading = value
         }
     }
+
+    public var state: Binder<UIControl.State> {
+        return Binder(self.base) { view, value in
+            view.state = value
+        }
+    }
 }
