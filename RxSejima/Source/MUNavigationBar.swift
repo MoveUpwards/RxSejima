@@ -6,11 +6,12 @@
 //  Copyright © 2019 Loïc GRIFFIE. All rights reserved.
 //
 
+#if os(iOS)
+
+import UIKit.UIImage
 import RxSwift
 import RxCocoa
 import Sejima
-
-#if os(iOS)
 
 extension Reactive where Base: MUNavigationBar {
     

@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'RxSejima'
-  s.version = '0.1.0'
+  s.version = '0.1.2'
   s.license = 'MIT'
   s.summary = 'RxSejima is a framework that expose reusable components.'
   s.description  = <<-DESC
@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.source = { :git => 'https://github.com/MoveUpwards/RxSejima.git', :tag => s.version }
   s.swift_version   = '4.2'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '9.1'
 
   s.source_files = 'RxSejima/Source/**/*.swift'
 
