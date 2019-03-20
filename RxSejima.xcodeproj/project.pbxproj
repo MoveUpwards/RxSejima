@@ -15,6 +15,8 @@
 		7EB7F1FA2BCBA40CB6022E52 /* Pods_RxSejimaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E46D4C0D019D89A46A81072 /* Pods_RxSejimaTests.framework */; };
 		BD6ABF37B6DF61CCE432745D /* Pods_RxSejima.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D7738C685E0E62CD3713911 /* Pods_RxSejima.framework */; };
 		F34BD14C223FAF8E00793EDE /* MUCircularProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34BD14B223FAF8E00793EDE /* MUCircularProgress.swift */; };
+		F3A44D2722422D0D00590460 /* MUProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A44D2622422D0D00590460 /* MUProgress.swift */; };
+		F3A44D2922422E3D00590460 /* MUTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A44D2822422E3D00590460 /* MUTime.swift */; };
 		F3D96B9B2229738300C45A17 /* RxSejima.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3D96B912229738200C45A17 /* RxSejima.framework */; };
 		F3D96BA02229738300C45A17 /* RxSejimaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D96B9F2229738300C45A17 /* RxSejimaTests.swift */; };
 		F3D96BA22229738300C45A17 /* RxSejima.h in Headers */ = {isa = PBXBuildFile; fileRef = F3D96B942229738200C45A17 /* RxSejima.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -47,6 +49,8 @@
 		A27B836A4506FB5D54817AAB /* Pods-RxSejimaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSejimaTests.release.xcconfig"; path = "Target Support Files/Pods-RxSejimaTests/Pods-RxSejimaTests.release.xcconfig"; sourceTree = "<group>"; };
 		EDF329D106E67C715140325D /* Pods-RxSejima.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSejima.release.xcconfig"; path = "Target Support Files/Pods-RxSejima/Pods-RxSejima.release.xcconfig"; sourceTree = "<group>"; };
 		F34BD14B223FAF8E00793EDE /* MUCircularProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUCircularProgress.swift; sourceTree = "<group>"; };
+		F3A44D2622422D0D00590460 /* MUProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUProgress.swift; sourceTree = "<group>"; };
+		F3A44D2822422E3D00590460 /* MUTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUTime.swift; sourceTree = "<group>"; };
 		F3D96B912229738200C45A17 /* RxSejima.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxSejima.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3D96B942229738200C45A17 /* RxSejima.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RxSejima.h; sourceTree = "<group>"; };
 		F3D96B952229738200C45A17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -152,6 +156,8 @@
 				6D1E7708223A96440030A2C4 /* MUAvatar.swift */,
 				6D1E770A223A96860030A2C4 /* MUSegmentedControl.swift */,
 				F34BD14B223FAF8E00793EDE /* MUCircularProgress.swift */,
+				F3A44D2622422D0D00590460 /* MUProgress.swift */,
+				F3A44D2822422E3D00590460 /* MUTime.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -317,6 +323,8 @@
 				6D1E770B223A96860030A2C4 /* MUSegmentedControl.swift in Sources */,
 				F3D96BC1222974E800C45A17 /* MUHeader.swift in Sources */,
 				F34BD14C223FAF8E00793EDE /* MUCircularProgress.swift in Sources */,
+				F3A44D2922422E3D00590460 /* MUTime.swift in Sources */,
+				F3A44D2722422D0D00590460 /* MUProgress.swift in Sources */,
 				6D1E7709223A96440030A2C4 /* MUAvatar.swift in Sources */,
 				6D4EFB4B223A9467006231F9 /* MUNavigationBar.swift in Sources */,
 				F3D96BC6222974E800C45A17 /* MUButton.swift in Sources */,
