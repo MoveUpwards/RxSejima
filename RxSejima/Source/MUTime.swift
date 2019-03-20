@@ -10,22 +10,22 @@ import RxSwift
 import RxCocoa
 import Sejima
 
-//extension Reactive where Base: MUTime {
-//    public var progress: Binder<Double> {
-//        return Binder(self.base) { view, value in
-//            view.set(progress: CGFloat(value), animated: true)
-//        }
-//    }
-//
-//    public var indicatorColor: Binder<UIColor> {
-//        return Binder(self.base) { view, value in
-//            view.indicatorColor = value
-//        }
-//    }
-//
-//    public var timeBackgroundColor: Binder<UIColor> {
-//        return Binder(self.base) { view, value in
-//            view.timeBackgroundColor = value
-//        }
-//    }
-//}
+extension Reactive where Base: MUTime {
+    public var progress: Binder<Double> {
+        return Binder(self.base) { view, value in
+            view.set(value: CGFloat(value))
+        }
+    }
+
+    public var indicatorColor: Binder<UIColor> {
+        return Binder(self.base) { view, value in
+            view.indicatorColor = value
+        }
+    }
+
+    public var timeBackgroundColor: Binder<UIColor> {
+        return Binder(self.base) { view, value in
+            view.timeBackgroundColor = value
+        }
+    }
+}
