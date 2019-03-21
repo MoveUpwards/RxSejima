@@ -11,9 +11,9 @@ import RxCocoa
 import Sejima
 
 extension Reactive where Base: MUTime {
-    public var progress: Binder<Double> {
+    public var progress: Binder<CGFloat> {
         return Binder(self.base) { view, value in
-            view.set(value: CGFloat(value))
+            view.set(value: value)
         }
     }
 
