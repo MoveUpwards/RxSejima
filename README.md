@@ -1,5 +1,5 @@
 [![Documentation](https://img.shields.io/badge/Read_the-Docs-67ad5c.svg)](https://moveupwards.github.io/RxSejima/)
-[![Language: Swift 2, 3 and 4](https://img.shields.io/badge/language-swift%204-f48041.svg?style=flat)](https://developer.apple.com/swift)
+[![Language: Swift 2, 3 and 4](https://img.shields.io/badge/language-swift%205-f48041.svg?style=flat)](https://developer.apple.com/swift)
 ![Platform: iOS 11+](https://img.shields.io/badge/platform-iOS-blue.svg?style=flat)
 [![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![CocoaPods](https://img.shields.io/cocoapods/v/RxSejima.svg)](http://cocoapods.org/pods/RxSejima)

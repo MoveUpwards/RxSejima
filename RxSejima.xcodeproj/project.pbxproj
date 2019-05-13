@@ -226,9 +226,11 @@
 				TargetAttributes = {
 					F3D96B902229738200C45A17 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 					};
 					F3D96B992229738300C45A17 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -238,6 +240,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = F3D96B872229738200C45A17;
 			productRefGroup = F3D96B922229738200C45A17 /* Products */;
@@ -497,7 +500,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.surfin.RxSejima;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -524,7 +527,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.surfin.RxSejima;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -544,7 +547,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.surfin.RxSejimaTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -564,7 +567,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.surfin.RxSejimaTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
