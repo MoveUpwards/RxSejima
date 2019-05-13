@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.frameworks = 'Foundation'
 
-  s.dependency 'RxCocoa', '~> 4.3.1'
-  s.dependency 'RxSwift', '~> 4.3.1'
+  s.dependency 'RxCocoa'
+  s.dependency 'RxSwift'
   s.dependency 'Sejima'
 end
