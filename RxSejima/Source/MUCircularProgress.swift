@@ -12,6 +12,20 @@ import Sejima
 
 extension Reactive where Base: MUCircularProgress {
 
+    /// Bindable sink for `title` property.
+    public var title: Binder<String> {
+        return Binder(self.base) { view, value in
+            view.title = value
+        }
+    }
+
+    /// Bindable sink for `detail` property.
+    public var detail: Binder<String> {
+        return Binder(self.base) { view, value in
+            view.detail = value
+        }
+    }
+
     /// Bindable sink for `progressValue` property.
     public var progress: Binder<CGFloat> {
         return Binder(self.base) { view, value in
