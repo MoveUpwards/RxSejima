@@ -131,7 +131,7 @@
 			children = (
 				F3D96B942229738200C45A17 /* RxSejima.h */,
 				F3D96B952229738200C45A17 /* Info.plist */,
-				F3D96BAB222974E800C45A17 /* Source */,
+				F3D96BAB222974E800C45A17 /* Sources */,
 			);
 			path = RxSejima;
 			sourceTree = "<group>";
@@ -145,7 +145,7 @@
 			path = RxSejimaTests;
 			sourceTree = "<group>";
 		};
-		F3D96BAB222974E800C45A17 /* Source */ = {
+		F3D96BAB222974E800C45A17 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
 				F3D96BB3222974E800C45A17 /* MUHeader.swift */,
@@ -162,7 +162,7 @@
 				F3A44D2622422D0D00590460 /* MUProgress.swift */,
 				F3A44D2822422E3D00590460 /* MUTime.swift */,
 			);
-			path = Source;
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -501,6 +501,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.5.4;
 				PRODUCT_BUNDLE_IDENTIFIER = com.surfin.RxSejima;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -528,6 +529,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.5.4;
 				PRODUCT_BUNDLE_IDENTIFIER = com.surfin.RxSejima;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;

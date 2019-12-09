@@ -13,11 +13,14 @@ let package = Package(
             targets: ["RxSejima"]
         ),
     ],
-    dependencies: [],
+    dependencies: [
+        .package(url: "https://github.com/MoveUpwards/Sejima.git", from: "1.0.0"),
+        .package(url: "https://github.com/ReactiveX/RxSwift.git", from: "5.0.0"),
+    ],
     targets: [
         .target(
             name: "RxSejima",
-            dependencies: [],
+            dependencies: ["Sejima", "RxSwift", "RxCocoa"],
             path: "RxSejima/Sources"
         ),
     ]

@@ -9,6 +9,7 @@
 import RxSwift
 import RxCocoa
 import Sejima
+import UIKit
 
 extension Reactive where Base: MUTime {
     public var progress: Binder<CGFloat> {

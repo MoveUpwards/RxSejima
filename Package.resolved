@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "RxSwift",
+        "repositoryURL": "https://github.com/ReactiveX/RxSwift.git",
+        "state": {
+          "branch": null,
+          "revision": "b3e888b4972d9bc76495dd74d30a8c7fad4b9395",
+          "version": "5.0.1"
+        }
+      },
+      {
+        "package": "Sejima",
+        "repositoryURL": "https://github.com/MoveUpwards/Sejima.git",
+        "state": {
+          "branch": null,
+          "revision": "09c38c64b9ec1fdd367a0b58d0dadcb57647a849",
+          "version": "1.0.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
