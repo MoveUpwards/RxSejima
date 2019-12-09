@@ -6,10 +6,10 @@
 //  Copyright © 2019 Loïc GRIFFIE. All rights reserved.
 //
 
-import UIKit.UIImage
 import RxSwift
 import RxCocoa
 import Sejima
+import UIKit.UIImage
 
 extension Reactive where Base: MUAvatar {
     public var image: Binder<UIImage?> {
