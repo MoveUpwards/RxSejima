@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'RxSejima'
-  s.version = '0.5.0'
+  s.version = '0.6.0'
   s.license = 'MIT'
   s.summary = 'RxSejima is a framework that expose reusable components.'
   s.description  = <<-DESC

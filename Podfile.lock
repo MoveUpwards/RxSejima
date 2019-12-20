@@ -1,11 +1,11 @@
 PODS:
-  - RxCocoa (5.0.0):
+  - RxCocoa (5.0.1):
     - RxRelay (~> 5)
     - RxSwift (~> 5)
-  - RxRelay (5.0.0):
+  - RxRelay (5.0.1):
     - RxSwift (~> 5)
-  - RxSwift (5.0.0)
-  - Sejima (0.5.5)
+  - RxSwift (5.0.1)
+  - Sejima (1.1.2)
 
 DEPENDENCIES:
   - RxCocoa
@@ -13,18 +13,18 @@ DEPENDENCIES:
   - Sejima
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  trunk:
     - RxCocoa
     - RxRelay
     - RxSwift
     - Sejima
 
 SPEC CHECKSUMS:
-  RxCocoa: fcf32050ac00d801f34a7f71d5e8e7f23026dcd8
-  RxRelay: 4f7409406a51a55cd88483f21ed898c234d60f18
-  RxSwift: 8b0671caa829a763bbce7271095859121cbd895f
-  Sejima: e1ec3316f32294b9babc8478c70504b2d2cbb8b9
+  RxCocoa: e741b9749968e8a143e2b787f1dfbff2b63d0a5c
+  RxRelay: 89d54507f4fd4d969e6ec1d4bd7f3673640b4640
+  RxSwift: e2dc62b366a3adf6a0be44ba9f405efd4c94e0c4
+  Sejima: 5ee654207b9516d5418d436d8298a21ff6399efa
 
-PODFILE CHECKSUM: 25699b832c04f3790eb512bfa953dcaaf7f8aba3
+PODFILE CHECKSUM: 7ee4dd3da9f5ef4f47fc37d9eb26c0dcedbd79ec
 
-COCOAPODS: 1.7.0.beta.2
+COCOAPODS: 1.8.4
