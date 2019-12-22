@@ -17,4 +17,16 @@ extension Reactive where Base: MUSegmentedControl {
             view.set(index: value)
         }
     }
+
+    public var selectedColor: Binder<UIColor> {
+        return Binder(self.base) { view, value in
+            view.selectedColor = value
+        }
+    }
+
+    public var selectedTitleColor: Binder<UIColor> {
+        return Binder(self.base) { view, value in
+            view.selectedTitleColor = value
+        }
+    }
 }
