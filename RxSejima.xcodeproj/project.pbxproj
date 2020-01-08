@@ -12,8 +12,8 @@
 		6D1E770B223A96860030A2C4 /* MUSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1E770A223A96860030A2C4 /* MUSegmentedControl.swift */; };
 		6D4EFB4B223A9467006231F9 /* MUNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4EFB4A223A9467006231F9 /* MUNavigationBar.swift */; };
 		6D4EFB4D223A94A0006231F9 /* MUIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4EFB4C223A94A0006231F9 /* MUIndicator.swift */; };
-		7EB7F1FA2BCBA40CB6022E52 /* Pods_RxSejimaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E46D4C0D019D89A46A81072 /* Pods_RxSejimaTests.framework */; };
-		BD6ABF37B6DF61CCE432745D /* Pods_RxSejima.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D7738C685E0E62CD3713911 /* Pods_RxSejima.framework */; };
+		9D908CA1D0A9B35CF5B3142A /* Pods_RxSejima.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F865C0C66CA50B4711F1EF6 /* Pods_RxSejima.framework */; };
+		B5D381AD5072057ED3D385CB /* Pods_RxSejimaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E3592C942E37FC01B28525F /* Pods_RxSejimaTests.framework */; };
 		F34BD14C223FAF8E00793EDE /* MUCircularProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34BD14B223FAF8E00793EDE /* MUCircularProgress.swift */; };
 		F380051D22A17410001FEC90 /* MUCollectionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F380051C22A17410001FEC90 /* MUCollectionButton.swift */; };
 		F3A44D2722422D0D00590460 /* MUProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A44D2622422D0D00590460 /* MUProgress.swift */; };
@@ -39,17 +39,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1D7738C685E0E62CD3713911 /* Pods_RxSejima.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSejima.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4E46D4C0D019D89A46A81072 /* Pods_RxSejimaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSejimaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		14688FE68FFAE9446069A26D /* Pods-RxSejimaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSejimaTests.debug.xcconfig"; path = "Target Support Files/Pods-RxSejimaTests/Pods-RxSejimaTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6D1E7706223A95EF0030A2C4 /* MUStat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUStat.swift; sourceTree = "<group>"; };
 		6D1E7708223A96440030A2C4 /* MUAvatar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUAvatar.swift; sourceTree = "<group>"; };
 		6D1E770A223A96860030A2C4 /* MUSegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUSegmentedControl.swift; sourceTree = "<group>"; };
 		6D4EFB4A223A9467006231F9 /* MUNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUNavigationBar.swift; sourceTree = "<group>"; };
 		6D4EFB4C223A94A0006231F9 /* MUIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUIndicator.swift; sourceTree = "<group>"; };
-		73B1C000C31BD738394B6124 /* Pods-RxSejima.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSejima.debug.xcconfig"; path = "Target Support Files/Pods-RxSejima/Pods-RxSejima.debug.xcconfig"; sourceTree = "<group>"; };
-		96B8D1438CC40610CAB3EC7D /* Pods-RxSejimaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSejimaTests.debug.xcconfig"; path = "Target Support Files/Pods-RxSejimaTests/Pods-RxSejimaTests.debug.xcconfig"; sourceTree = "<group>"; };
-		A27B836A4506FB5D54817AAB /* Pods-RxSejimaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSejimaTests.release.xcconfig"; path = "Target Support Files/Pods-RxSejimaTests/Pods-RxSejimaTests.release.xcconfig"; sourceTree = "<group>"; };
-		EDF329D106E67C715140325D /* Pods-RxSejima.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSejima.release.xcconfig"; path = "Target Support Files/Pods-RxSejima/Pods-RxSejima.release.xcconfig"; sourceTree = "<group>"; };
+		6E3592C942E37FC01B28525F /* Pods_RxSejimaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSejimaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F865C0C66CA50B4711F1EF6 /* Pods_RxSejima.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSejima.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2E1AF1F526486A9D7E8B14D /* Pods-RxSejima.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSejima.release.xcconfig"; path = "Target Support Files/Pods-RxSejima/Pods-RxSejima.release.xcconfig"; sourceTree = "<group>"; };
+		CF8B62AC996676DD3D2D5677 /* Pods-RxSejimaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSejimaTests.release.xcconfig"; path = "Target Support Files/Pods-RxSejimaTests/Pods-RxSejimaTests.release.xcconfig"; sourceTree = "<group>"; };
 		F34BD14B223FAF8E00793EDE /* MUCircularProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUCircularProgress.swift; sourceTree = "<group>"; };
 		F380051C22A17410001FEC90 /* MUCollectionButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MUCollectionButton.swift; sourceTree = "<group>"; };
 		F3A44D2622422D0D00590460 /* MUProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUProgress.swift; sourceTree = "<group>"; };
@@ -65,6 +64,7 @@
 		F3D96BB4222974E800C45A17 /* MUTopBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MUTopBar.swift; sourceTree = "<group>"; };
 		F3D96BB6222974E800C45A17 /* MUTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MUTextField.swift; sourceTree = "<group>"; };
 		F3D96BB8222974E800C45A17 /* MUButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MUButton.swift; sourceTree = "<group>"; };
+		F84ACD93314023EA4C05081A /* Pods-RxSejima.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSejima.debug.xcconfig"; path = "Target Support Files/Pods-RxSejima/Pods-RxSejima.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD6ABF37B6DF61CCE432745D /* Pods_RxSejima.framework in Frameworks */,
+				9D908CA1D0A9B35CF5B3142A /* Pods_RxSejima.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,31 +81,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3D96B9B2229738300C45A17 /* RxSejima.framework in Frameworks */,
-				7EB7F1FA2BCBA40CB6022E52 /* Pods_RxSejimaTests.framework in Frameworks */,
+				B5D381AD5072057ED3D385CB /* Pods_RxSejimaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E62F273F3D6AD9614E76AFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F865C0C66CA50B4711F1EF6 /* Pods_RxSejima.framework */,
+				6E3592C942E37FC01B28525F /* Pods_RxSejimaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		44464C90D4E62D1EEB7D668A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				73B1C000C31BD738394B6124 /* Pods-RxSejima.debug.xcconfig */,
-				EDF329D106E67C715140325D /* Pods-RxSejima.release.xcconfig */,
-				96B8D1438CC40610CAB3EC7D /* Pods-RxSejimaTests.debug.xcconfig */,
-				A27B836A4506FB5D54817AAB /* Pods-RxSejimaTests.release.xcconfig */,
+				F84ACD93314023EA4C05081A /* Pods-RxSejima.debug.xcconfig */,
+				A2E1AF1F526486A9D7E8B14D /* Pods-RxSejima.release.xcconfig */,
+				14688FE68FFAE9446069A26D /* Pods-RxSejimaTests.debug.xcconfig */,
+				CF8B62AC996676DD3D2D5677 /* Pods-RxSejimaTests.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		6C15CEE146B1EF91325A24A5 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				1D7738C685E0E62CD3713911 /* Pods_RxSejima.framework */,
-				4E46D4C0D019D89A46A81072 /* Pods_RxSejimaTests.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		F3D96B872229738200C45A17 = {
@@ -115,7 +115,7 @@
 				F3D96B9E2229738300C45A17 /* RxSejimaTests */,
 				F3D96B922229738200C45A17 /* Products */,
 				44464C90D4E62D1EEB7D668A /* Pods */,
-				6C15CEE146B1EF91325A24A5 /* Frameworks */,
+				2E62F273F3D6AD9614E76AFD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -186,7 +186,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F3D96BA52229738300C45A17 /* Build configuration list for PBXNativeTarget "RxSejima" */;
 			buildPhases = (
-				F2900A8FB7A507FBACFA89F6 /* [CP] Check Pods Manifest.lock */,
+				2BE150320D13364D287A6BC3 /* [CP] Check Pods Manifest.lock */,
 				F3D96B8C2229738200C45A17 /* Headers */,
 				F3D96B8D2229738200C45A17 /* Sources */,
 				F3D96B8E2229738200C45A17 /* Frameworks */,
@@ -205,7 +205,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F3D96BA82229738300C45A17 /* Build configuration list for PBXNativeTarget "RxSejimaTests" */;
 			buildPhases = (
-				B2C0D0304F98D511F7B9CAC0 /* [CP] Check Pods Manifest.lock */,
+				05D90AAFE9A463013DEBAFDB /* [CP] Check Pods Manifest.lock */,
 				F3D96B962229738300C45A17 /* Sources */,
 				F3D96B972229738300C45A17 /* Frameworks */,
 				F3D96B982229738300C45A17 /* Resources */,
@@ -277,7 +277,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		B2C0D0304F98D511F7B9CAC0 /* [CP] Check Pods Manifest.lock */ = {
+		05D90AAFE9A463013DEBAFDB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -299,7 +299,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F2900A8FB7A507FBACFA89F6 /* [CP] Check Pods Manifest.lock */ = {
+		2BE150320D13364D287A6BC3 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -488,7 +488,7 @@
 		};
 		F3D96BA62229738300C45A17 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 73B1C000C31BD738394B6124 /* Pods-RxSejima.debug.xcconfig */;
+			baseConfigurationReference = F84ACD93314023EA4C05081A /* Pods-RxSejima.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -516,7 +516,7 @@
 		};
 		F3D96BA72229738300C45A17 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EDF329D106E67C715140325D /* Pods-RxSejima.release.xcconfig */;
+			baseConfigurationReference = A2E1AF1F526486A9D7E8B14D /* Pods-RxSejima.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -544,7 +544,7 @@
 		};
 		F3D96BA92229738300C45A17 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 96B8D1438CC40610CAB3EC7D /* Pods-RxSejimaTests.debug.xcconfig */;
+			baseConfigurationReference = 14688FE68FFAE9446069A26D /* Pods-RxSejimaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -564,7 +564,7 @@
 		};
 		F3D96BAA2229738300C45A17 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A27B836A4506FB5D54817AAB /* Pods-RxSejimaTests.release.xcconfig */;
+			baseConfigurationReference = CF8B62AC996676DD3D2D5677 /* Pods-RxSejimaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
