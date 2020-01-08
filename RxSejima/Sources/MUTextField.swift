@@ -29,7 +29,7 @@ extension Reactive where Base: MUTextField {
     }
 
     /// Bindable sink for `text` property.
-    public var text: Binder<String> {
+    public var text: Binder<String?> {
         return Binder(self.base) { view, value in
             view.text = value
         }
