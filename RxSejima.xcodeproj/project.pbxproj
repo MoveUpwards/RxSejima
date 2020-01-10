@@ -19,6 +19,7 @@
 		F3A44D2722422D0D00590460 /* MUProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A44D2622422D0D00590460 /* MUProgress.swift */; };
 		F3A44D2922422E3D00590460 /* MUTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A44D2822422E3D00590460 /* MUTime.swift */; };
 		F3B6A6C823C8C70500372642 /* MUCircularIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B6A6C723C8C70500372642 /* MUCircularIndicator.swift */; };
+		F3B6A6CA23C8C9C400372642 /* MULabelCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B6A6C923C8C9C300372642 /* MULabelCounter.swift */; };
 		F3C0DB8923AD661D0053CAA1 /* MUCollectionPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C0DB8823AD661D0053CAA1 /* MUCollectionPicker.swift */; };
 		F3D96B9B2229738300C45A17 /* RxSejima.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3D96B912229738200C45A17 /* RxSejima.framework */; };
 		F3D96BA02229738300C45A17 /* RxSejimaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D96B9F2229738300C45A17 /* RxSejimaTests.swift */; };
@@ -55,6 +56,7 @@
 		F3A44D2622422D0D00590460 /* MUProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUProgress.swift; sourceTree = "<group>"; };
 		F3A44D2822422E3D00590460 /* MUTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUTime.swift; sourceTree = "<group>"; };
 		F3B6A6C723C8C70500372642 /* MUCircularIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MUCircularIndicator.swift; sourceTree = "<group>"; };
+		F3B6A6C923C8C9C300372642 /* MULabelCounter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MULabelCounter.swift; sourceTree = "<group>"; };
 		F3C0DB8823AD661D0053CAA1 /* MUCollectionPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MUCollectionPicker.swift; sourceTree = "<group>"; };
 		F3D96B912229738200C45A17 /* RxSejima.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxSejima.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3D96B942229738200C45A17 /* RxSejima.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RxSejima.h; sourceTree = "<group>"; };
@@ -152,6 +154,7 @@
 		F3D96BAB222974E800C45A17 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				F3B6A6C923C8C9C300372642 /* MULabelCounter.swift */,
 				F3B6A6C723C8C70500372642 /* MUCircularIndicator.swift */,
 				F3C0DB8823AD661D0053CAA1 /* MUCollectionPicker.swift */,
 				F3D96BB3222974E800C45A17 /* MUHeader.swift */,
@@ -332,6 +335,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D1E7707223A95EF0030A2C4 /* MUStat.swift in Sources */,
+				F3B6A6CA23C8C9C400372642 /* MULabelCounter.swift in Sources */,
 				F3B6A6C823C8C70500372642 /* MUCircularIndicator.swift in Sources */,
 				6D1E770B223A96860030A2C4 /* MUSegmentedControl.swift in Sources */,
 				F3D96BC1222974E800C45A17 /* MUHeader.swift in Sources */,
@@ -509,7 +513,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.7.0;
+				MARKETING_VERSION = 0.8.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.surfin.RxSejima;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -537,7 +541,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.7.0;
+				MARKETING_VERSION = 0.8.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.surfin.RxSejima;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
