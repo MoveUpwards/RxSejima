@@ -5,7 +5,7 @@ PODS:
   - RxRelay (5.0.1):
     - RxSwift (~> 5)
   - RxSwift (5.0.1)
-  - Sejima (1.1.4)
+  - Sejima (1.2.2)
 
 DEPENDENCIES:
   - RxCocoa
@@ -23,7 +23,7 @@ SPEC CHECKSUMS:
   RxCocoa: e741b9749968e8a143e2b787f1dfbff2b63d0a5c
   RxRelay: 89d54507f4fd4d969e6ec1d4bd7f3673640b4640
   RxSwift: e2dc62b366a3adf6a0be44ba9f405efd4c94e0c4
-  Sejima: 99a770edd452d6e83a030f161e76330ae3495036
+  Sejima: b6f2df9f5bda24537ce759910ad05dc8d965742d
 
 PODFILE CHECKSUM: 7ee4dd3da9f5ef4f47fc37d9eb26c0dcedbd79ec
 
