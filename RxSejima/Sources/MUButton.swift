@@ -35,6 +35,13 @@ extension Reactive where Base: MUButton {
             view.state = value
         }
     }
+
+    /// Bindable sink for `buttonBackgroundColor` property.
+    public var backgroundColor: Binder<UIColor> {
+        return Binder(self.base) { view, value in
+            view.buttonBackgroundColor = value
+        }
+    }
 }
 
 #endif
