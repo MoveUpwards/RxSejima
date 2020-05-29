@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'RxSejima'
-  s.version = '0.9.1'
+  s.version = '0.10.0'
   s.license = 'MIT'
   s.summary = 'RxSejima is a framework that expose reusable components.'
   s.description  = <<-DESC
@@ -9,13 +9,10 @@ Pod::Spec.new do |s|
   s.homepage = 'https://github.com/MoveUpwards/RxSejima.git'
   s.authors = { 'Damien NOËL DUBUISSON' => 'damien@slide-r.com', 'Loïc GRIFFIÉ' => 'loic@slide-r.com' }
   s.source = { :git => 'https://github.com/MoveUpwards/RxSejima.git', :tag => s.version }
-  s.swift_version   = '5.0'
-
-  s.ios.deployment_target = '10.0'
-
-  s.source_files = 'RxSejima/Sources/**/*.swift'
-
-  s.frameworks = 'Foundation'
+  s.swift_version           = '5.2'
+  s.ios.deployment_target   = '10.0'
+  s.source_files            = 'RxSejima/Sources/**/*.swift'
+  s.frameworks              = 'Foundation'
 
   s.dependency 'RxCocoa'
   s.dependency 'RxSwift'
