@@ -6,8 +6,6 @@ target 'RxSejima' do
 
   # Pods for RxSejima
   pod 'Sejima'
-  pod 'RxSwift'
-  pod 'RxCocoa'
 
   target 'RxSejimaTests' do
     inherit! :search_paths
