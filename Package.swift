@@ -20,7 +20,7 @@ let package = Package(
     targets: [
         .target(
             name: "RxSejima",
-            dependencies: ["Sejima", "RxSwift", "RxCocoa", "RxRelay"],
+            dependencies: ["Sejima", "RxSwift"],
             path: "RxSejima/Sources"
         ),
     ]
