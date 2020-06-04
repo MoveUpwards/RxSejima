@@ -1,34 +1,20 @@
 PODS:
   - Neumann (1.1.1)
-  - RxCocoa (5.1.0):
-    - RxRelay (~> 5)
-    - RxSwift (~> 5)
-  - RxRelay (5.1.0):
-    - RxSwift (~> 5)
-  - RxSwift (5.1.0)
   - Sejima (1.4.9):
     - Neumann
 
 DEPENDENCIES:
-  - RxCocoa
-  - RxSwift
   - Sejima
 
 SPEC REPOS:
   trunk:
     - Neumann
-    - RxCocoa
-    - RxRelay
-    - RxSwift
     - Sejima
 
 SPEC CHECKSUMS:
   Neumann: d1319141c9c374c3e8a0b0107bbc751e1c4cac6c
-  RxCocoa: 13d2a4d7546a34b8ececae8c281e4ea1dbb94f2b
-  RxRelay: a168bd6caf712d00c676ac344e9295afc93b418e
-  RxSwift: ad5874f24bb0dbffd1e9bb8443604e3578796c7a
   Sejima: 7ff1d1aac6632a7c96ce23c35bf0c6f2f3adeb11
 
-PODFILE CHECKSUM: 7ee4dd3da9f5ef4f47fc37d9eb26c0dcedbd79ec
+PODFILE CHECKSUM: b2fcd51ee4331287d4e22481006894f1f9479a52
 
 COCOAPODS: 1.8.4
