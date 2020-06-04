@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'RxSejima'
-  s.version = '0.10.0'
+  s.version = '0.10.1'
   s.license = 'MIT'
   s.summary = 'RxSejima is a framework that expose reusable components.'
   s.description  = <<-DESC
@@ -13,8 +13,6 @@ Pod::Spec.new do |s|
   s.ios.deployment_target   = '10.0'
   s.source_files            = 'RxSejima/Sources/**/*.swift'
   s.frameworks              = 'Foundation'
-
-  s.dependency 'RxCocoa'
-  s.dependency 'RxSwift'
+  
   s.dependency 'Sejima'
 end
