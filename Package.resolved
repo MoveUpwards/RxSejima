@@ -6,8 +6,8 @@
         "repositoryURL": "https://github.com/MoveUpwards/Neumann.git",
         "state": {
           "branch": null,
-          "revision": "3659ae8154af5a9f39e4cf24a120046acabdf561",
-          "version": "1.1.1"
+          "revision": "df20da831b84f0b31b4ac937dd35d198dbb6505b",
+          "version": "1.2.0"
         }
       },
       {
@@ -15,8 +15,8 @@
         "repositoryURL": "https://github.com/ReactiveX/RxSwift.git",
         "state": {
           "branch": null,
-          "revision": "c1bd31b397d87a54467af4161dde9d6b27720c19",
-          "version": "5.1.0"
+          "revision": "002d325b0bdee94e7882e1114af5ff4fe1e96afa",
+          "version": "5.1.1"
         }
       },
       {
@@ -24,8 +24,8 @@
         "repositoryURL": "https://github.com/MoveUpwards/Sejima.git",
         "state": {
           "branch": null,
-          "revision": "8237cb4669e6f26c7c0dd253b097a25f9bdbcc78",
-          "version": "1.4.9"
+          "revision": "3297d1b2a0b9fe37779a4032e1ca43f47df867e1",
+          "version": "1.6.0"
         }
       }
     ]
